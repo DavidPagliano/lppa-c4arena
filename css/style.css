@@ -1,0 +1,85 @@
+.body{
+ display: flex;
+ height: 1366px;
+ width: 1080px;
+ flex-direction: column;
+}
+.wallppaper{
+
+ height: 1366px;
+ width: 1080px;
+ background: url(assets/circuloGris.jpg);
+
+}
+
+.iframe{
+ 
+ background-color: rgb(131, 141, 145);
+ height: 1080px;
+ width: 1366px;
+ position: relative;
+  
+ 
+}
+.icircle{
+ background-color: gray;
+ border-radius: 50%;
+ height: 70px;
+ width: 70px;
+ 
+}
+
+
+.navegation{
+ height: 50px;
+ width: 60px;
+ background-color: forestgreen;
+ 
+}
+
+.design{
+ padding: 10px 0;
+ border-radius: 20px 20px 3px 3px;
+ height: 400px;
+ width: 500px;
+ background-color: dodgerblue;
+ margin: 150px 3px 1px 250px;
+}
+
+.bar{
+ height: 100px;
+ border-radius: 3px 3px 20px 20px;
+ width: 500px;
+ background-color: rgb(255, 255, 255);
+ margin: 11px 650px -50px 250px;
+}
+.framedesign{
+ padding: 10px 0;
+ border-radius: 20px 20px 3px 3px;
+ height: 350px;
+ width: 450px;
+ background-color: rgb(160, 162, 165);
+ margin: 10px 23px 3px 25px;
+}
+.columndesign{
+ display: flex;
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
+ background: white;
+ flex-direction: column;
+ align-self: stretch;
+}
+ 
+.columns{
+ margin: 1px 1px 1px 50px;
+}
+
+@media screen and (min-width: 600px) {
+  .columns{
+ display: flex;
+ flex-direction: row;
+ align-self: auto;
+ }
+}
+
